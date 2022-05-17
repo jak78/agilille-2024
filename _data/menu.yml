@@ -4,11 +4,11 @@
   visible: 1
 - title: Devenir sponsor
   url: /devenir-sponsor
-  visible: 1
+  visible: 0
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2022
   target: _blank
-  visible: 1
+  visible: 0
 - title: Accès
   url: /acces
   visible: 1
@@ -38,15 +38,11 @@
 - title: Orga
   url: /organisateurs
   visible: 0
-- title: Agile Tour Lille 2019
-  url: https://2019.agiletour-lille.org
-  target: _blank
-  visible: 0
 - title: AgiLille 2021
   url: https://2021.agilille.fr
   target: _blank
-  visible: 1
-- title: Podcasts
-  url: https://anchor.fm/association-nord-agile
+  visible: 0
+- title: Youtube
+  url: https://www.youtube.com/c/Nord-agileOrg
   target: _blank
   visible: 1
