@@ -2,7 +2,7 @@ gold:
   - name: Techsys
     url: https://www.techsys.fr/
     logo: Techsys_2022.png
-    imgclass: standard
+    imgclass: wide
     description: ""
   - name: Nextoo
     url: https://www.nextoo.fr/
@@ -27,7 +27,7 @@ gold:
   - name: ADEO
     url: https://www.adeo.com/
     logo: Adeo_2022.png
-    imgclass: wide
+    imgclass: standard
     description: ""
   - name: Davidson
     url: https://www.davidson.fr/
