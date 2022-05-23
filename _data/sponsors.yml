@@ -1,7 +1,7 @@
 gold:
   - name: Techsys
     url: https://www.techsys.fr/
-    logo: Techsys_2022.png
+    logo: Techsys_2022_transparent.png
     imgclass: wide
     description: ""
   - name: Nextoo
@@ -16,7 +16,7 @@ gold:
     description: ""
   - name: Kiabi
     url: https://www.kiabi.com/
-    logo: Kiabi_2022.jpg
+    logo: Kiabi_2022_transparent.jpg
     imgclass: wide
     description: ""
   - name: Zenika
@@ -26,7 +26,7 @@ gold:
     description: ""
   - name: ADEO
     url: https://www.adeo.com/
-    logo: Adeo_2022.png
+    logo: Adeo_2022_transparent.png
     imgclass: standard
     description: ""
   - name: Davidson
