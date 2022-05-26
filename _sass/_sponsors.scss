@@ -1,39 +1,24 @@
-.sponsor {
-  h2 {
-    text-align: left;
-  }
-
+.sponsor-level {
   text-align: center;
-  height: auto;
-  margin: 25px;
-  .valign-helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-  }
-  img {
-    vertical-align: middle;
-    &.standard {
-      max-width: 150px;
-      max-height: 150px;
-    }
-    &.wide {
-      width: 250px;
-    }
-    &.ultra-wide {
-      width: 400px;
-    }
-  }
-  .name {
-    display:block;
-  }
-  a.placeholder {
-    display: block;
-    border: 1px solid grey;
-    width: 220px;
-    height: 70px;
-    padding-top: 20px;
-    font-size: 20px;
-    font-style: italic;
-  }
+  background: #eee;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5rem;
+}
+
+.sponsors-item {
+  list-style: none;
+}
+
+.sponsors-item img {
+  display: block;
+  /* Make sure max-width is added */
+  max-width: 100%;
+  max-height: 100px;
 }

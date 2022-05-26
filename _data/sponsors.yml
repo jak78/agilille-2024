@@ -2,67 +2,41 @@ gold:
   - name: Techsys
     url: https://www.techsys.fr/
     logo: Techsys_2022_transparent.png
-    imgclass: wide
-    description: ""
   - name: Nextoo
     url: https://www.nextoo.fr/
     logo: Nextoo_2022.png
-    imgclass: wide
-    description: ""
   - name: Resiliens
     url: https://resiliens.co/
     logo: Resiliens_2022.png
-    imgclass: wide
-    description: ""
   - name: Kiabi
     url: https://www.kiabi.com/
     logo: Kiabi_2022_transparent.png
-    imgclass: wide
-    description: ""
   - name: Zenika
     url: https://zenika.com/fr-FR/agency/lille
     logo: Zenika_2022.png
-    imgclass: wide
-    description: ""
   - name: ADEO
     url: https://www.adeo.com/
     logo: Adeo_2022_transparent.png
-    imgclass: standard
-    description: ""
   - name: Davidson
     url: https://www.davidson.fr/
     logo: Davidson_2022.png
-    imgclass: wide
-    description: ""
 silver:
   - name: PROXIAD
     url: https://www.proxiad.com/
     logo: Proxiad_2022.png
-    imgclass: wide
-    description: ""
   - name: AXA
     url: https://www.axa.fr/
     logo: axa_2022.png
-    imgclass: standard
-    description: ""
   - name: OCTO Technology
     url: https://www.octo.com/
     logo: OCTO_2022.png
-    imgclass: wide
-    description: ""
   - name: SII
     url: https://sii-group.com/fr-FR
     logo: SII_2022.png
-    imgclass: standard
-    description: ""
   - name: DEVOTEAM
     url: https://france.devoteam.com/
     logo: Devoteam_2022.png
-    imgclass: wide
-    description: ""
   - name: sumit
     url: https://www.sumit.fr/
     logo: Sumit_2022.png
-    imgclass: wide
-    description: ""
   
