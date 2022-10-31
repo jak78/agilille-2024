@@ -5,7 +5,7 @@ layout: default
         <img src="./img/Frame.png" alt="background-frame">
     </div>
     <div class="container custom-container">
-        <h1 class="agi-lille-title">AGI'LILLE 2022</h1>
+        <h1 class="agi-lille-title">AGI'LILLE {{ site.data.event.date.year }}</h1>
         <div>
             <div class="texte-accueil">
                 {{ site.data.event.date.long }}
@@ -13,11 +13,8 @@ layout: default
             <div class="texte-accueil">
                 En présentiel à <a href="/acces">l'UCL</a>
             </div>
-            <!--<div class="mt-5">
-                <a class="custom-button" href="https://sessionize.com/agilille-2022">Soumettre un sujet</a>
-            </div>-->
             <div class="mt-5">
-                <a class="custom-button" href="https://2021.agilille.fr">L'évènement de l'an dernier</a>
+                <a class="custom-button" href="/programme">Voir le programme de l'édition {{ site.data.event.date.year }}</a>
             </div>
         </div>
     </div>
