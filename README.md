@@ -65,13 +65,3 @@ Après quelques secondes (quelques minutes au 1er lancement) vous pourrez alors 
     http://localhost:4000
 
 Et voilà, votre AgiLille.fr local !
-
-## Workflow
-
-Pour publier, pousser vos modifications sur `master`:
-
-    git checkout master
-    # make your changes
-    git add .
-    git commit -m "Added: Something funny"
-    git push
