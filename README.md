@@ -14,7 +14,7 @@ Il est conseillé de tester le résultat de sa contribution avant de la proposer
 
 # Comment contribuer ?
 
-Après ce tuto, vous serez en mesure de proposer une contribution au site.  contribution que vous aurez pu tester au préalable sur une version privée du site d'AgiLille. Le tout en environ 10 minutes. C'est pas beau, ça ?
+Après ce tuto, vous serez en mesure de proposer une contribution au site.  contribution que vous aurez pu tester au préalable sur une version privée du site.
 
 On va vous faire utiliser GitHub Codespaces, pour que tout soit testé dans un cloud, sans rien avoir à installer sur votre PC/Mac.
 
