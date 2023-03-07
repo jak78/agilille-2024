@@ -6,42 +6,36 @@
   url: /devenir-sponsor
   visible: 0
 - title: Soumettre un sujet
-  url: https://sessionize.com/agilille-2022
+  url: https://sessionize.com/agilille-2023
   target: _blank
-  visible: 0
+  visible: 1
 - title: Accès
   url: /acces
   visible: 1
 
 - title: Billetterie
-  url: https://www.billetweb.fr/agilille-2022
+  url: https://www.billetweb.fr/agilille-2023
   target: _blank
-  visible: 1
+  visible: 0
 - title: Programme
   url: /programme
-  visible: 1
+  visible: 0
 - title: Programme
   url: /pre-programme
   visible: 0
-- title: Speakers
-  url: /speakers
-  visible: 0
-- title: Talks
-  url: /conferences
-  visible: 0
 - title: Sponsors
   url: /sponsors
-  visible: 1
+  visible: 0
 - title: Partenaires
   url: /partenaires
   visible: 0
 - title: Orga
   url: /organisateurs
   visible: 0
-- title: AgiLille 2021
-  url: https://2021.agilille.fr
+- title: AgiLille 2022
+  url: https://2022.agilille.fr
   target: _blank
-  visible: 0
+  visible: 1
 - title: Youtube
   url: https://www.youtube.com/c/Nord-agileOrg
   target: _blank
