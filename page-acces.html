@@ -17,14 +17,20 @@ permalink: /acces/
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 100%;
   flex-wrap: nowrap;
   padding-top: 2%;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
 .box {
-  margin: 10px;
-  padding: 20px;
+  margin: 4px;
+  padding: 15px;
   background-color: #f1f1f1;
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -36,19 +42,23 @@ permalink: /acces/
   margin: 0;
   font-size: 18px;
   line-height: 1.5;
+  width: 70%;
 }
 
 .box img {
   max-width: 100%;
-  width: 100px;
-  height: auto;
+  width: 70px;
+  height: 100px;
+  max-height: auto;
   display: block;
   margin: 0 auto;
 }
 
 .box iframe {
   max-width: 100%;
-  height: 400px; 
+  width: 620px;
+  height: 400px;
+  max-height: auto; 
   display: block;
   margin: 0 auto;
 }
@@ -56,16 +66,16 @@ permalink: /acces/
   </style>
   </head>
   <body>
-    <div class="container">
-      <div class="box">
-        <p><a href="https://www.univ-catholille.fr/" target="_blank">L'université Catholique de Lille</a> nous accueille dans ses locaux <b>60 Boulevard Vauban, Lille</b>.</p>
-      </div>
-      <div class="box">
-        <img src="/img/ucl.jpg" alt="Lille Catholic University">
-      </div>
+    <div class="grid-container">
+        <div class="box">
+            <p><a href="https://www.univ-catholille.fr/" target="_blank">L'université Catholique de Lille</a> nous accueille dans ses locaux <b>60 Boulevard Vauban, Lille</b>.</p>
+        </div>
+        <div class="box">
+            <img src="/img/ucl.jpg" alt="Lille Catholic University">
+        </div>
+    </div>
       <div class="box">
         <iframe src="https://maps.google.com/maps?q=Lille+Catholic+University 59800&z=15&output=embed" title="Lille Catholic University Map"></iframe>
-        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.6772411348848!2d3.044495015812346!3d50.6331123820672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d579824560f1%3A0x941ce6543ee12a17!2sLille+Catholic+University!5e0!3m2!1sen!2sfr!4v1528404499303" title="Lille Catholic University Map"></iframe> -->
       </div>
     </div>
   </body>
@@ -79,3 +89,5 @@ permalink: /acces/
             <!--<li>par V'Lille: <a href="http://www.vlille.fr/stations/les-stations-vlille.aspx">borne la plus proche à Triolo</a>.</li>-->
         <!--</ul>-->
         <!--Vous pourrez également utiliser l'un des parkings gratuits situés à proximité, dans les limites des places disponibles.-->
+
+  
