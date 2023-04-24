@@ -129,10 +129,32 @@ body {
 }
 
 footer {
+   left: 0;
    bottom:0;
    right:0;
-   height:60px;   /* Height of the footer */
+   height:100px;   /* Height of the footer */
+   font-size: 16px;
+   color : #fdc258;
+   background-color:#383A56 ;
+   margin: 0; 
+   padding-top: 20px;
 }
+
+ footer .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+ }
+
+ footer .box img{
+  width: 70px;
+  height: auto;
+ }
+
+ footer .box p{
+  padding-top: 10px;
+ }
+
 
 .custom-container{
   margin-top:10rem;
