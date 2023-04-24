@@ -203,3 +203,26 @@ footer {
     display: block;
     margin: 0 auto;
   }
+
+  // css page a-propos
+  .apropos .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+  }
+  
+  .apropos h1 {
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .apropos p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
