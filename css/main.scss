@@ -11,6 +11,7 @@ $base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$footer-height:    100px;
 $spacing-unit:     30px;
 
 $text-color:       #111;
@@ -83,6 +84,10 @@ body {
     height: 100%; //100vh
     font-family: 'Josefin Sans', sans-serif;
     color: #383A56 !important;
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    padding-bottom: $footer-height;
 }
 
 .about {
@@ -118,25 +123,65 @@ body {
 
 
 .texte-accueil {
-    color: #383A56;
-    font-size: 2rem !important;
+  color: #383A56;
+  font-size: 2rem !important;
 }
 
 .lille-illustration {
-    position: absolute;
-    bottom:0;
-    right:0;
+  position: absolute;
+  bottom:0;
+  right:0;
+  margin-bottom: $footer-height;
 }
 
+//css footer
 footer {
+   left: 0;
    bottom:0;
    right:0;
-   height:60px;   /* Height of the footer */
+   position: absolute;
+   height: $footer-height;
+   font-size: 16px;
+   color : #fdc258;
+   background-color:#383A56 ;
+   margin: 0; 
+   padding-top: 20px;
 }
 
-.custom-container{
-  margin-top:10rem;
+ footer .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+ }
+
+ footer .box img{
+  width: 70px;
+  height: auto;
+ }
+
+ footer .box p{
+  padding-top: 10px;
+ }
+
+//css footer mobile
+@media only screen and (max-width: 767px) { 
+  footer { 
+    height: auto;
+    font-size: 14px;
+    padding: 10px;
+  } 
+  footer .grid-container { 
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  footer .box {
+    text-align: center; 
+    margin-bottom: 5px; 
+  } footer .box img{
+    width: 50px;
+  } 
 }
+
 
 @media (max-width: 900px) {
     .lille-illustration {
