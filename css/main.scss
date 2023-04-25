@@ -118,14 +118,14 @@ body {
 
 
 .texte-accueil {
-    color: #383A56;
-    font-size: 2rem !important;
+  color: #383A56;
+  font-size: 2rem !important;
 }
 
 .lille-illustration {
-    position: absolute;
-    bottom:0;
-    right:0;
+  position: absolute;
+  bottom:0;
+  right:0;
 }
 
 //css footer
@@ -175,10 +175,6 @@ footer {
   } 
 }
 
-
-.custom-container{
-  margin-top:10rem;
-}
 
 @media (max-width: 900px) {
     .lille-illustration {
