@@ -150,8 +150,8 @@ footer {
 
  footer .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
+    grid-template-columns: auto auto;
+    gap: 50%;
  }
 
  footer .box img{
@@ -160,7 +160,8 @@ footer {
  }
 
  footer .box p{
-  padding-top: 10px;
+  padding-top: 12px;
+
  }
 
 //css footer mobile
@@ -173,13 +174,15 @@ footer {
   footer .grid-container { 
     grid-template-columns: auto;
     justify-content: center;
+    gap : 0%;
   }
   footer .box {
     text-align: center; 
     margin-bottom: 5px; 
   } footer .box img{
     width: 50px;
-  } 
+    padding-top: 3%;
+}
 }
 
 
