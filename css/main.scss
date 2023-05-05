@@ -274,79 +274,83 @@ footer {
 }
 
 // css pour page acces
-.acces .container  {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  flex-wrap: nowrap;
-  padding-top: 2%;
-}
+.acces {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    padding-top: 2%;
+  }
 
-.acces .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 10px;
-  padding: 10px;
-}
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
 
-.acces .box {
-  margin: 4px;
-  padding: 15px;
-  background-color: #f1f1f1;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  text-align: center;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-}
+  .box {
+    margin: 4px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 
-.acces .box p {
-  font-size: 18px;
-  line-height: 1.5;
-  width: 100%;
-  text-align: center;
-  padding: 30px 0;
-}
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      width: 100%;
+      text-align: center;
+      padding: 30px 0;
+    }
 
-.acces .box img {
-  max-width: 100%;
-  width: 70px;
-  height: 100px;
-  max-height: 100%;
-  display: block;
-  margin: 0 auto;
-}
+    img {
+      max-width: 100%;
+      width: 70px;
+      height: 100px;
+      max-height: 100%;
+      display: block;
+      margin: 0 auto;
+    }
 
-.acces .box iframe {
-  max-width: 100%;
-  width: 620px;
-  height: 400px;
-  max-height: auto; 
-  display: block;
-  margin: 0 auto;
+    iframe {
+      max-width: 100%;
+      width: 620px;
+      height: 400px;
+      max-height: auto; 
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }
 
 // css page a-propos
-.apropos .container {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 15px;
-  font-family: Arial, sans-serif;
-  align-items: center;
-}
+.apropos {
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+  }
 
-.apropos h1 {
-  font-size: 33px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
-}
+  h1 {
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-.apropos p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 15px;
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
 }
