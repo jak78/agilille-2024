@@ -6,38 +6,31 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   14px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-font-family:  Helvetica, Arial, sans-serif;
+$base-font-size:    14px;
+$small-font-size:   $base-font-size * 0.875;
+$base-line-height:  1.5;
 
-$footer-height:    100px;
-$spacing-unit:     30px;
+$footer-height:     100px;
+$spacing-unit:      30px;
+$nav-button-height: 45px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:        #111;
+$background-color:  #fdfdfd;
+$brand-color:       #2a7ae2;
+$navbar-button-color: #383a56;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:        #828282;
+$grey-color-light:  lighten($grey-color, 40%);
+$grey-color-dark:   darken($grey-color, 25%);
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm:           600px;
+$on-laptop:         800px;
 
-
-
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+      @content;
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -57,73 +50,148 @@ $on-laptop:        800px;
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.navbar-brand {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 20px;
-  color: #000;
-  .small-brand {
-    font-size: 15px;
-  }
-}
+.navbar-container {
+  gap: 15px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-.nav.navbar-nav.navbar-right, h1, h2, h3 {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.nav.navbar-nav {
-  font-size: 13px;
+  .navbar-brand {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-right: 0;
+    height: 100%;
+    color: #000;
+    .small-brand {
+      font-size: 15px;
+    }
+  }
+
+  #navbar-toggle {
+    margin: 0;
+    display: none;
+    padding: 0 18px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    min-height: $nav-button-height;
+    border: 1px solid $navbar-button-color;
+
+    i {
+      width: 18px;
+      height: 18px;
+      margin-right: 6px;
+    }
+  }
+
+  .navbar-items {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+
+  @media (max-width: $on-palm) {
+    flex-direction: column;
+
+    #navbar-toggle {
+      display: block;
+    }
+
+    #navbar-menu {
+      display: flex;
+      overflow: hidden;
+
+      &:after {
+        content: '';
+        height: 50px;
+        max-height: 0px;
+        transition: height 0.3s ease-in-out, max-height 0s 0.3s ease-in-out;
+      }
+
+      &.hide-items {
+        &:after {
+          height: 0;
+          max-height: 50px;
+          transition: height 0.3s ease-in-out;
+        }
+
+        .navbar-items {
+          max-height: 0;
+          visibility: hidden;
+          margin-bottom: -100vmax;
+          transition: margin-bottom 0.3s ease-in-out, visibility 0s 0.3s, max-height 0s 0.3s;
+        }
+      }
+
+      .navbar-items {
+        margin-bottom: 0;
+        max-height: 100vmax;
+        align-items: stretch;
+        flex-direction: column;
+        justify-content: center;
+        transition: margin-bottom 0.3s ease-in-out;
+
+        .custom-button {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 
 // CSS update HP 25.03.2021
 
 body {
-    padding-top: 0 !important;
-    background: linear-gradient(333deg, rgba(253,203,113,1) 35%, rgba(255,251,242,1) 100%);
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    height: 100%; //100vh
-    font-family: 'Josefin Sans', sans-serif;
-    color: #383A56 !important;
-    position: relative;
-    margin: 0;
-    min-height: 100vh;
-    padding-bottom: $footer-height;
-}
-
-.about {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.about:hover {
-    text-decoration: none;
+  padding-top: 0 !important;
+  background: linear-gradient(333deg, rgba(253,203,113,1) 35%, rgba(255,251,242,1) 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 100%; //100vh
+  font-family: 'Josefin Sans', sans-serif;
+  color: $navbar-button-color !important;
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
 }
 
 .agi-lille-title {
-    font-size: 6rem !important;
-    color: #383A56 !important;
-    font-weight: bold;
+  font-size: 6rem !important;
+  color: $navbar-button-color !important;
+  font-weight: bold;
 }
 
 .custom-button {
-    border-radius: 30px;
-    background-color: #383A56;
-    padding: 15px;
-    color: white;
-    transition: all .2s ease-in-out;
+  font-weight: 600;
+  min-height: $nav-button-height;
+  border-radius: 30px;
+  background-color: $navbar-button-color;
+  padding: 0 15px;
+  color: white;
+  font-size: 13px;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  transition: all .2s ease-in-out;
+  outline: 1px solid transparent;
 
-    &:hover, &:focus {
-      text-decoration: none;
-      color: #383A56;
-      background: transparent;
-      border: 1px solid #383A56;
-    }
+  &:hover, &:focus {
+    text-decoration: none;
+    color: $navbar-button-color;
+    background: transparent;
+    outline: 1px solid $navbar-button-color;
+  }
 }
 
 
 
 .texte-accueil {
-  color: #383A56;
+  color: $navbar-button-color;
   font-size: 2rem !important;
 }
 
@@ -131,73 +199,83 @@ body {
   position: absolute;
   bottom:0;
   right:0;
-  margin-bottom: $footer-height;
+  padding-bottom: $footer-height;
 }
 
-//css footer
 footer {
-   left: 0;
-   bottom:0;
-   right:0;
-   position: absolute;
-   height: $footer-height;
-   font-size: 16px;
-   color : #fdc258;
-   background-color:#383A56 ;
-   margin: 0; 
-   padding-top: 20px;
-}
+  left: 0;
+  bottom:0;
+  right:0;
+  position: absolute;
+  min-height: $footer-height;
+  font-size: 16px;
+  color : #fdc258;
+  background-color:$navbar-button-color ;
+  margin: 0;
+  padding: 10px;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
 
- footer .grid-container{
+  .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     gap: 50%;
- }
+  }
+  
+  .box {
+    img {
+      width: 70px;
+      height: auto;
+    }
+    a {
+      color: white;
+    }
+    p {
+      padding-top: 12px;
+    }
+  }
+}
 
- footer .box img{
-  width: 70px;
-  height: auto;
- }
-
- footer .box p{
-  padding-top: 12px;
-
- }
-
-//css footer mobile
 @media only screen and (max-width: 767px) { 
   footer { 
     height: auto;
     font-size: 14px;
     padding: 10px;
-  } 
-  footer .grid-container { 
-    grid-template-columns: auto;
-    justify-content: center;
-    gap : 0%;
+
+    .grid-container { 
+      grid-template-columns: auto;
+      justify-content: center;
+      gap: 0%;
+    }
+
+    .box {
+      text-align: center; 
+      margin-bottom: 5px;
+
+      img {
+        width: 50px;
+        padding-top: 3%;
+      }
+    }
   }
-  footer .box {
-    text-align: center; 
-    margin-bottom: 5px; 
-  } footer .box img{
-    width: 50px;
-    padding-top: 3%;
-}
 }
 
 
 @media (max-width: 900px) {
-    .lille-illustration {
-      display: none;
-    }
-
-    .custom-container {
-        text-align: center;
-    }
+  .lille-illustration {
+    display: none;
   }
-  
-  // css pour page acces
-  .acces .container  {
+
+  .custom-container {
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+// css pour page acces
+.acces {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,15 +284,15 @@ footer {
     flex-wrap: nowrap;
     padding-top: 2%;
   }
-  
-  .acces .grid-container {
+
+  .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
     padding: 10px;
   }
-  
-  .acces .box {
+
+  .box {
     margin: 4px;
     padding: 15px;
     background-color: #f1f1f1;
@@ -224,53 +302,55 @@ footer {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-  }
-  
-  .acces .box p {
-    font-size: 18px;
-    line-height: 1.5;
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
-  }
-  
-  .acces .box img {
-    max-width: 100%;
-    width: 70px;
-    height: 100px;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .acces .box iframe {
-    max-width: 100%;
-    width: 620px;
-    height: 400px;
-    max-height: auto; 
-    display: block;
-    margin: 0 auto;
-  }
 
-  // css page a-propos
-  .apropos .container {
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      width: 100%;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    img {
+      max-width: 100%;
+      width: 70px;
+      height: 100px;
+      max-height: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    iframe {
+      max-width: 100%;
+      width: 620px;
+      height: 400px;
+      max-height: auto; 
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+// css page a-propos
+.apropos {
+  .container {
     max-width: 80%;
     margin: 0 auto;
     padding: 15px;
     font-family: Arial, sans-serif;
     align-items: center;
   }
-  
-  .apropos h1 {
+
+  h1 {
     font-size: 33px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
   }
-  
-  .apropos p {
+
+  p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 15px;
   }
-  
+}
