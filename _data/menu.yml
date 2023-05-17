@@ -8,11 +8,10 @@
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2023
   target: _blank
-  visible: 1
+  visible: 0
 - title: Accès
   url: /acces
   visible: 1
-
 - title: Billetterie
   url: https://www.billetweb.fr/agilille-2023
   target: _blank
@@ -36,7 +35,7 @@
   url: https://2022.agilille.fr
   target: _blank
   visible: 1
-- title: Youtube
+- title: YouTube
   url: https://www.youtube.com/c/Nord-agileOrg
   target: _blank
-  visible: 1
+  visible: 0
