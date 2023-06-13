@@ -4,6 +4,9 @@
   visible: 1
 - title: Devenir sponsor
   url: /devenir-sponsor
+  visible: 0
+- title: Jeu des 7 célèbres
+  url: /jeu-des-sept-celebres
   visible: 1
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2023
