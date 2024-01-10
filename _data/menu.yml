@@ -1,13 +1,13 @@
 # Navigation bar on top-right
-- title: A propos
+- title: Qui sommes-nous ?
   url: /a-propos
   visible: 1
 - title: Devenir sponsor
   url: /devenir-sponsor
-  visible: 0
+  visible: 1
 - title: Jeu des 7 célèbres
   url: /jeu-des-sept-celebres
-  visible: 1
+  visible: 0
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2023
   target: _blank
@@ -18,8 +18,8 @@
 - title: Billetterie
   url: https://www.billetweb.fr/agilille-2023
   target: _blank
-  visible: 1
-- title: Programme
+  visible: 0
+- title: Le Programme de 2023
   url: /programme
   visible: 1
 - title: Programme
