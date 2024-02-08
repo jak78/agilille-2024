@@ -1,4 +1,4 @@
-gold:
+diamant:
   - name: Techsys
     url: https://www.techsys.fr/
     logo: Techsys_2022_transparent.png
@@ -20,7 +20,7 @@ gold:
   - name: Davidson
     url: https://www.davidson.fr/
     logo: Davidson_2022.png
-silver:
+emeuraude:
   - name: PROXIAD
     url: https://www.proxiad.com/
     logo: Proxiad_2022.png
@@ -39,4 +39,12 @@ silver:
   - name: sumit
     url: https://www.sumit.fr/
     logo: Sumit_2022.png
-  
+topaze:
+  - name: PROXIAD
+    url: https://www.proxiad.com/
+    logo: Proxiad_2022.png
+virtuel:
+  - name: PROXIAD
+    url: https://www.proxiad.com/
+    logo: Proxiad_2022.png
+
