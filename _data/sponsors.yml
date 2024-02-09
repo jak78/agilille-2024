@@ -1,50 +1,13 @@
 diamant:
-  - name: Techsys
-    url: https://www.techsys.fr/
-    logo: Techsys_2022_transparent.png
-  - name: Nextoo
-    url: https://www.nextoo.fr/
-    logo: Nextoo_2022.png
-  - name: Resiliens
-    url: https://resiliens.co/
-    logo: Resiliens_2022.png
-  - name: Kiabi
-    url: https://www.kiabi.com/
-    logo: Kiabi_2022_transparent.png
-  - name: Zenika
-    url: https://zenika.com/fr-FR/agency/lille
-    logo: Zenika_2022.png
-  - name: ADEO
-    url: https://www.adeo.com/
-    logo: Adeo_2022_transparent.png
-  - name: Davidson
-    url: https://www.davidson.fr/
-    logo: Davidson_2022.png
 emeuraude:
-  - name: PROXIAD
-    url: https://www.proxiad.com/
-    logo: Proxiad_2022.png
+  - name: EKITE
+    url: https://ekite.info/
+    logo: Ekite_2024_emeuraude.png
+topaze:
   - name: AXA
     url: https://www.axa.fr/
-    logo: axa_2022.png
-  - name: OCTO Technology
-    url: https://www.octo.com/
-    logo: OCTO_2022.png
-  - name: SII
-    url: https://sii-group.com/fr-FR
-    logo: SII_2022.png
-  - name: DEVOTEAM
-    url: https://france.devoteam.com/
-    logo: Devoteam_2022.png
-  - name: sumit
-    url: https://www.sumit.fr/
-    logo: Sumit_2022.png
-topaze:
-  - name: PROXIAD
-    url: https://www.proxiad.com/
-    logo: Proxiad_2022.png
+    logo: Axa_2024_topaze.png
 virtuel:
-  - name: PROXIAD
-    url: https://www.proxiad.com/
-    logo: Proxiad_2022.png
-
+  - name: NEXTOO
+    url: https://www.nextoo.fr/
+    logo: Nextoo_2024_virtuel.png
