@@ -1,4 +1,7 @@
-diamant:
+diamant:  
+  - name: KIABI
+    url: https://kiabi.com
+    logo: Kiabi_2024_diamant.png
 emeuraude:
   - name: EKITE
     url: https://ekite.info/
