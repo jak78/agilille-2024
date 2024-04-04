@@ -293,6 +293,8 @@ footer {
 
 
 @media (max-width: 900px) {
+  
+    
   .lille-illustration {
     display: none;
   }
@@ -388,5 +390,12 @@ footer {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 1570px) and (min-width: 900px)  {
+  .contenu-sous-titre {
+    max-width: 40%;
+    padding: 0 0 20px 0;
   }
 }
