@@ -8,6 +8,9 @@ diamant:
   - name: SNCF CONNECT
     url: https://jobs.connect-tech.sncf/
     logo: sncf_connect_2024_diamant.png
+  - name: LEROY MERLIN
+    url: https://www.leroymerlin.fr/
+    logo: LeroyMerlin_2024_diamant.png
 emeuraude:
   - name: EKITE
     url: https://ekite.info/
