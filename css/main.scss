@@ -3,17 +3,15 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family:  Helvetica, Arial, sans-serif;
-$base-font-size:    14px;
+$base-font-size:    12px;
 $small-font-size:   $base-font-size * 0.875;
 $base-line-height:  1.5;
 
-$footer-height:     100px;
-$spacing-unit:      30px;
-$nav-button-height: 45px;
+$footer-height:     70px; 
+$spacing-unit:      25px;
+$nav-button-height: 40px;
 
 $text-color:        #111;
 $background-color:  #fdfdfd;
@@ -51,40 +49,45 @@ $on-laptop:         800px;
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 .navbar-container {
-  gap: 15px;
+  gap: 10px;
   width: 100%;
-  padding: 10px;
+  padding: 5px 10px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
+
   .navbar-brand {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-right: 0;
     height: 100%;
+    display: flex;
+    align-items: center;
     color: #000;
+  
     .small-brand {
-      font-size: 15px;
+      font-size: 14px;
     }
   }
-
+  
   #navbar-toggle {
     margin: 0;
     display: none;
-    padding: 0 18px;
-    font-size: 16px;
+    padding: 0 14px; 
+    font-size: 14px; 
     font-weight: 500;
-    border-radius: 30px;
-    min-height: $nav-button-height;
+    border-radius: 20px;
+    min-height: 35px; 
     border: 1px solid $navbar-button-color;
-
+  
     i {
-      width: 18px;
-      height: 18px;
-      margin-right: 6px;
+      width: 16px; 
+      height: 16px;
+      margin-right: 5px; 
     }
   }
-
+  
   .navbar-items {
     gap: 5px;
     display: flex;
@@ -93,9 +96,11 @@ $on-laptop:         800px;
     list-style-type: none;
     padding-inline-start: 0;
   }
+  
 
   @media (max-width: $on-palm) {
     flex-direction: column;
+    height: initial;
 
     #navbar-toggle {
       display: block;
@@ -143,9 +148,6 @@ $on-laptop:         800px;
   }
 }
 
-
-// CSS update HP 25.03.2021
-
 body {
   background: linear-gradient(333deg, rgba(253,203,113,1) 35%, rgba(255,251,242,1) 100%);
   background-repeat: no-repeat;
@@ -157,10 +159,11 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-size: $base-font-size; 
 }
 
 .agi-lille-title {
-  font-size: 6rem !important;
+  font-size: 5rem !important; 
   color: $navbar-button-color !important;
   font-weight: bold;
 }
@@ -172,7 +175,7 @@ body {
   background-color: $navbar-button-color;
   padding: 0 15px;
   color: white;
-  font-size: 13px;
+  font-size: 12px; 
   display: inline-flex;
   justify-content: center;
   text-align: center;
@@ -196,24 +199,18 @@ body {
 
 .home-button-center {
   z-index: 1;
-  // background: #dc9000c9,
-  font-size: x-large;
+  font-size: large;
   padding: 1rem 2rem;
   border-radius: 1rem;
   text-transform: uppercase;
-  box-shadow: 0px 0px 6px 3px #dc900033
+  box-shadow: 0px 0px 6px 3px #dc900033;
 }
 
-.texte-accueil {
+.texte-accueil, .texte-speaker {
   color: $navbar-button-color;
-  font-size: 2rem !important;
+  font-size: 1.75rem !important; 
 }
 
-.texte-speaker{
-  color: $navbar-button-color;
-  font-size: 2rem !important;
-  text-align: center;
-}
 .lille-illustration {
   position: absolute;
   bottom: 0;
@@ -226,12 +223,12 @@ footer {
   bottom:0;
   right:0;
   position: absolute;
-  min-height: $footer-height;
-  font-size: 16px;
+  min-height: $footer-height; 
+  font-size: 14px; 
   color : #fdc258;
   background-color:$navbar-button-color ;
   margin: 0;
-  padding: 10px;
+  padding: 8px; 
   display: flex !important;
   align-items: center;
   justify-content: space-between;
@@ -259,14 +256,14 @@ footer {
 @media only screen and (max-width: 767px) {
   .home-button-center {
     margin-top: 3rem;
-    font-size: large;
+    font-size: medium; 
     padding: 0.75rem 1.5rem;
   }
 
   footer { 
     height: auto;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 12px;
+    padding: 8px;
 
     .grid-container { 
       grid-template-columns: auto;
@@ -286,17 +283,17 @@ footer {
   }
 }
 
-
 @media (max-width: 900px) {
   .lille-illustration {
     display: none;
   }
 
   .custom-container {
-    padding: 15px;
+    padding: 10px; 
     text-align: center;
   }
 }
+
 
 // css pour page acces
 .acces {
