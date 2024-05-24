@@ -2,31 +2,28 @@
 - title: Qui sommes-nous ?
   url: /a-propos
   visible: 1
-- title: Devenir sponsor
-  url: /devenir-sponsor
+- title: Accès
+  url: /acces
   visible: 1
-- title: Jeu des 7 célèbres
-  url: /jeu-des-sept-celebres
-  visible: 0
+- title: Sponsors
+  url: /sponsors
+  visible: 1
+- title: Speakers
+  url: /speakers
+  visible: 1
+- title: Billetterie
+  url: https://www.billetweb.fr/agilille-2024
+  target: _blank
+  visible: 1
+- title: Le Programme de 2024
+  url: /programme-2024
+  visible: 1
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2023
   target: _blank
   visible: 0
-- title: Accès
-  url: /acces
-  visible: 1
-- title: Billetterie
-  url: https://www.billetweb.fr/agilille-2023
-  target: _blank
-  visible: 0
-- title: Sponsors
-  url: /sponsors
-  visible: 1
-- title: Le Programme de 2023
-  url: /programme
-  visible: 1
-- title: Programme
-  url: /pre-programme
+- title: Devenir sponsor
+  url: /devenir-sponsor
   visible: 0
 - title: Partenaires
   url: /partenaires
@@ -34,11 +31,6 @@
 - title: Orga
   url: /organisateurs
   visible: 0
-- title: AgiLille 2022
-  url: https://2022.agilille.fr
-  target: _blank
-  visible: 0
-- title: YouTube
-  url: https://www.youtube.com/c/Nord-agileOrg
-  target: _blank
+- title: Jeu des 7 célèbres
+  url: /jeu-des-sept-celebres
   visible: 0
