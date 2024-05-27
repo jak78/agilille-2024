@@ -15,6 +15,9 @@
   url: https://www.billetweb.fr/agilille-2024
   target: _blank
   visible: 1
+- title: Jeu des LEGOS
+  url: /jeu-des-legos
+  visible: 1
 - title: Le Programme de 2024
   url: /programme-2024
   visible: 1
@@ -31,6 +34,5 @@
 - title: Orga
   url: /organisateurs
   visible: 0
-- title: Jeu des 7 célèbres
-  url: /jeu-des-sept-celebres
-  visible: 0
+
+
