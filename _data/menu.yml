@@ -5,22 +5,22 @@
 - title: Accès
   url: /acces
   visible: 1
-- title: Sponsors
+- title: Nos Sponsors en 2025
   url: /sponsors
   visible: 1
-- title: Speakers
+- title: Nos Speakers en 2025
   url: /speakers
-  visible: 1
+  visible: 0
 - title: Billetterie
-  url: https://www.billetweb.fr/agilille-2024
+  url: https://www.billetweb.fr/agilille-2025
   target: _blank
-  visible: 1
+  visible: 0
 - title: Jeu des LEGOS
   url: /jeu-des-legos
-  visible: 1
+  visible: 0
 - title: Le Programme de 2024
   url: /programme-2024
-  visible: 1
+  visible: 0
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2023
   target: _blank
