@@ -1,16 +1,16 @@
-# diamant:  
-#   - name: 
-#     url: 
-#     logo: 
-# emeuraude:
-#   - name: 
-#     url: 
-#     logo: 
-#  topaze:
-#   - name: 
-#     url: 
-#     logo: 
-# virtuel:
-#   - name:
-#     url: 
-#     logo: 
+diamant:  
+  - name: 
+    url: 
+    logo: 
+emeuraude:
+  - name: 
+    url: 
+    logo: 
+topaze:
+  - name: AXA
+    url: https://www.axa.fr/
+    logo: Axa_2025_topaze.png
+virtuel:
+  - name: Moi, c'est Naya
+    url: https://moicestnaya.com/
+    logo: Naya_2025_virtuel.png
