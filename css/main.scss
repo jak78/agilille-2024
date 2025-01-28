@@ -418,11 +418,21 @@ footer {
   }
 }
 
-// css page 7 célèbres
+// css page sponsors 
 
-.jeu-boutton{
+.sponsor-boutton{
   text-align: center;
   zoom: 150%;
+}
+
+.youtube-frame{
+  // max-width: 100%;
+  width: 560px;
+  height: 315px;
+  margin: 20px auto;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 // css page a-propos
 .apropos {
