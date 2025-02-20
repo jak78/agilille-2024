@@ -1,16 +1,31 @@
 diamant:  
-  - name: 
-    url: 
-    logo: 
+  - name: Nextoo
+    url: https://nextoo.fr/
+    logo: Nextoo_2025_diamant.png
+  - name: Wemanity
+    url: https://wemanity.com/fr/
+    logo: Wemanity_diamant_2025.png
+  - name: Kiabi
+    url: https://www.kiabi.com/
+    logo: Kiabi_2025_diamant.png
 emeuraude:
-  - name: 
-    url: 
-    logo: 
+  - name: Inetum
+    url: https://www.inetum.com/fr
+    logo: Inetum_2025_emeuraude.png
+  - name: Davidson
+    url: https://www.davidson.fr/
+    logo: Davidson_2025_emeuraude.png
 topaze:
   - name: AXA
     url: https://www.axa.fr/
     logo: Axa_2025_topaze.png
+  - name: UNIS
+    url: https://www.unis.fr/
+    logo: Unis_2025_topaze.png
 virtuel:
   - name: Moi, c'est Naya
     url: https://moicestnaya.com/
     logo: Naya_2025_virtuel.png
+  - name: Proxiad
+    url: https://www.proxiad.com/
+    logo: Proxiad_2025_virtuel.png
