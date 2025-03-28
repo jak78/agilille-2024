@@ -29,3 +29,9 @@ virtuel:
   - name: Proxiad
     url: https://www.proxiad.com/
     logo: Proxiad_2025_virtuel.png
+  - name: SII
+    url: https://sii-group.com/fr-FR
+    logo: SII_2025_virtuel.png
+  - name: Ekité
+    url:  https://ekite.info/
+    logo: Ekite_2025_virtuel.png
