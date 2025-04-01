@@ -5,16 +5,16 @@
 - title: Accès
   url: /acces
   visible: 1
-- title: Nos Sponsors en 2025
-  url: /sponsors
-  visible: 1
 - title: Nos Speakers en 2025
   url: /speakers
   visible: 0
 - title: Billetterie
-  url: https://www.billetweb.fr/agilille-2025
+  url: https://www.billetweb.fr/agilille-20251&multi=u5889&margin=no_margin&color=635BFF&parent=1&margin=no_margin&color=635BFF
   target: _blank
-  visible: 0
+  visible: 1
+- title: Nos Sponsors en 2025
+  url: /sponsors
+  visible: 1
 - title: Jeu des LEGOS
   url: /jeu-des-legos
   visible: 0
