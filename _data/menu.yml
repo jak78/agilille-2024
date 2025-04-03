@@ -9,7 +9,7 @@
   url: /speakers
   visible: 0
 - title: Billetterie
-  url: https://www.billetweb.fr/agilille-20251&multi=u5889&margin=no_margin&color=635BFF&parent=1&margin=no_margin&color=635BFF
+  url: https://www.billetweb.fr/agilille-20251
   target: _blank
   visible: 1
 - title: Nos Sponsors en 2025
@@ -18,8 +18,8 @@
 - title: Jeu des LEGOS
   url: /jeu-des-legos
   visible: 0
-- title: Le Programme de 2024
-  url: /programme-2024
+- title: Le Programme de 2025
+  url: /2y10RmIlxhU8ZmWjutm5Dx91ur95P54la68eDZF8GSI4fJW8jFiSaU6
   visible: 0
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2023
