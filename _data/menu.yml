@@ -19,8 +19,8 @@
   url: /jeu-des-legos
   visible: 0
 - title: Le Programme de 2025
-  url: /2y10RmIlxhU8ZmWjutm5Dx91ur95P54la68eDZF8GSI4fJW8jFiSaU6
-  visible: 0
+  url: /programme
+  visible: 1
 - title: Soumettre un sujet
   url: https://sessionize.com/agilille-2023
   target: _blank
