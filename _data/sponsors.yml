@@ -25,6 +25,9 @@ topaze:
   - name: UNIS
     url: https://www.unis.fr/
     logo: Unis_2025_topaze.png
+  - name: Cofidis
+    url: https://www.cofidis.fr/
+    logo: Cofidis_2025_topaze.png
 virtuel:
   - name: Moi, c'est Naya
     url: https://moicestnaya.com/
