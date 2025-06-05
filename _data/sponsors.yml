@@ -41,3 +41,12 @@ virtuel:
   - name: Ekité
     url:  https://ekite.info/
     logo: Ekite_2025_virtuel.png
+  - name: TECHSYS
+    url:  https://techsys.fr/
+    logo: Techsys_2025_virtuel.png
+  - name: Viveris
+    url:  https://www.viveris.fr/
+    logo: Viveris_2025_virtuel.png
+  - name: Resiliens
+    url:  https://resiliens.co/
+    logo: Resiliens_2025_virtuel.png
